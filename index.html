@@ -8,8 +8,26 @@
     <title>ToDo List</title>
 </head>
 <body>
-    <div id="task-container"></div>
-    <div id="list-container"></div>
+    <div class="input">
+        <label for="name">Name</label>
+        <input type="text" name="user" id="user" required>
+    </div>
+    <div class="input">
+        <label for="date">Date</label>
+        <input type="date" name="date" id="date"required> 
+    </div>
+    <div class="input">
+        <label for="task">Task</label>
+        <input type="text" name="task" id="task" required>
+    </div>
+    <button type="submit" id='submit'>Add to list</button>
+    <button id="reset">Reset</button>
+    <div id="tasks">
+        <ul id="task-list">
+
+        </ul>
+    </div>
+
     <script src="js/index.js" async></script>
 </body>
-</html>
+</html> 
