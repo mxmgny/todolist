@@ -1,0 +1,24 @@
+
+.input {
+    display: flex;
+    padding:3px;
+    width:250px;
+    align-content: space-between;
+}
+.input label{
+    width:50px;
+}
+.input input {
+    width:200px;
+    align-self: flex-end;   
+}
+#submit {
+    width:255px;
+}
+
+#tasks {
+    width:500px;
+    height:400px;
+    border: 1px solid black;
+    margin-top: 10px;
+}
